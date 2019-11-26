@@ -1,2 +1,2 @@
 # callrail-gtm-template
-This is an unofficial CallRail Dynamic Number Insertion tag template for Google Tag Manager
+This is an unofficial custom Google Tag Manager template for the CallRail (Dynamic Number Insertion) tag.
