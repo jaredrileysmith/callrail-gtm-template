@@ -1,4 +1,4 @@
-﻿___TERMS_OF_SERVICE___
+___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -89,13 +89,14 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
+const log = require('logToConsole');
+const url = 'https://cdn.callrail.com/companies/' + data.accountNumber + '/' + data.companyID + '/12/swap.js';
 
-const url = 'https://cdn.callrail.com/companies/' + data.accountNumber + '/' + data.accountID + '/12/swap.js';
+// Log URL to be injected to console when in preview/debug mode
+log(url);
 
+// Inject script
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure);
-
-
-
 
 // Call data.gtmOnSuccess when the tag is finished.
 data.gtmOnSuccess();
@@ -129,6 +130,24 @@ ___WEB_PERMISSIONS___
       "isEditedByUser": true
     },
     "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "logging",
+        "versionId": "1"
+      },
+      "param": [
+        {
+          "key": "environments",
+          "value": {
+            "type": 1,
+            "string": "debug"
+          }
+        }
+      ]
+    },
+    "isRequired": true
   }
 ]
 
@@ -140,6 +159,4 @@ scenarios: []
 
 ___NOTES___
 
-Created on 11/25/2019, 3:08:09 PM
-
-
+Created on 11/26/2019, 4:22:03 PM
