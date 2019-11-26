@@ -11,8 +11,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
 homepage: "https://www.wpromote.com"
 documentation: "https://github.com/jaredrileysmith/callrail-gtm-template/blob/master/README.md"
 versions:
 - sha: 424f8a764b3f70851c400bbee40b136a4aef331e
-- changeNotes: Initial release.
+- changeNotes: Initial Version.
