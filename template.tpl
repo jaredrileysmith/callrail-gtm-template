@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "CallRail - Dynamic Number Insertion",
+  "categories": ["ANALYTICS", "CONVERSIONS", "MARKETING"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "CallRail",
