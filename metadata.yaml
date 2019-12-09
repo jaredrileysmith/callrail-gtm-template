@@ -15,5 +15,9 @@
 homepage: "https://www.wpromote.com"
 documentation: "https://github.com/jaredrileysmith/callrail-gtm-template/blob/master/README.md"
 versions:
+# Latest Version
+- sha: fe12322bea2f2346af1726c2f30c69c45a29415b
+  changeNotes: Updates to template UI and added deployment instructions to README
+# Older Versions
 - sha: b3f7c3bbe9fe7f702962354ae785178461aeb8a7
   changeNotes: Initial Version.
